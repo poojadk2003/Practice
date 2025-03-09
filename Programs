@@ -14,3 +14,78 @@ if search(lst,n):
     print('found at pos',pos)
 else:
     print('not found')
+
+#factorial of a number:
+import math
+x=int(input("Enter the number"))
+y=math.factorial(x)
+print(y)
+
+# printing patterns:
+for i in range(5):
+    for j in range(i):
+        print("*",end="  ")
+    print()
+
+#reverse of the pattern:
+for i in range(5,0,-1):
+    for j in range(i):
+        print("*",end="  ")
+    print()
+
+#swapping of the numbers:
+a=int(input("Enter the number"))
+b=int(input("Enter the number"))
+temp=a
+a=b
+b=temp
+print(a,b)
+
+#additiom of two numbers
+a=int(input("Enter the number"))
+b=int(input("Enter the number"))
+c=a+b
+print(c)
+
+#multiplication:
+a=int(input("Enter the number"))
+b=int(input("Enter the number"))
+c=a*b
+print(c)
+
+#finding sum of num in list:
+
+x=[10,20,30,40]
+c=sum(x)
+print(c)
+
+#max of list:
+
+x=[10,20,30,40]
+c=max(x)
+print(c)
+
+#minimum of list:
+
+x=[10,20,30,40]
+c=min(x)
+print(c)
+#pritning all elements of list:
+
+x=[10,20,50,40]
+for i in x:
+    print(i)
+
+#finding the sum and finding the squareroot of it:
+import math
+x=(10,20,50,40)
+d=sum(x)
+c=math.sqrt(d)
+print(c)
+
+#sorting of the list:
+
+x=[10,20,50,40]
+x.sort()
+print(x)
+
