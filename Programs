@@ -89,3 +89,10 @@ x=[10,20,50,40]
 x.sort()
 print(x)
 
+#printing prime or not:
+n=int(input("Enter the number"))
+if (n%2==0):
+    print('not prime')
+else:
+    print('prime')
+
